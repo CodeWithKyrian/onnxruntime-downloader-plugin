@@ -1,0 +1,28 @@
+{
+    "name": "codewithkyrian/onnxruntime-downloader-plugin",
+    "description": "A lightweight composer plugin for `ankane/onnxruntime` package to download the ONNXRuntime binaries for PHP",
+    "type": "composer-plugin",
+    "require": {
+        "php": "^8.1",
+        "ankane/onnxruntime": "*",
+        "composer-plugin-api": "^1.1 || ^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "~1.0 || ~2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codewithkyrian\\OnnxruntimeDownloaderPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kyrian Obikwelu",
+            "email": "koshnawaza@gmail.com"
+        }
+    ],
+    "extra": {
+        "class": "Codewithkyrian\\OnnxruntimeDownloaderPlugin\\Plugin"
+    }
+}
